@@ -22,7 +22,7 @@ function greet(name) {
  */
 function isOdd(n) {
   // Your code here
-  return n % 2 == 1;
+  return n % 2 === 1;
 }
 
 /**
