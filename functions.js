@@ -51,7 +51,7 @@ function oddsSmallerThan(n) {
  */
 function squareOrDouble(n) {
   // Your code here
-  return (n % 2 == 0) ? (n * 2) : (n ** 2);
+  return (n % 2 === 0) ? (n * 2) : (n ** 2);
 }
 
 module.exports = {
